@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <rect width="100" height="100" rx="24" fill="#0A2E23"/>
+  <rect x="2" y="2" width="96" height="96" rx="22" stroke="#10B981" stroke-width="2" stroke-opacity="0.25"/>
+  
+  <!-- Leaves growing from behind soil line (y = 48.5) -->
+  <g>
+    <!-- Left Leaf -->
+    <path
+      d="M 43 48.5 C 38 43 32.5 39 34.5 33.5 C 37 32 42.5 37 46 43 C 46.8 44.8 47.2 46.8 47.5 48.5 Z"
+      fill="#325B27"
+      stroke="#1A3B12"
+      stroke-width="2.8"
+      stroke-linejoin="round"
+      stroke-linecap="round"
+    />
+    <path
+      d="M 44.5 48.5 C 42 43.5 38 38 35.5 34"
+      stroke="#1A3B12"
+      stroke-width="2.4"
+      stroke-linecap="round"
+    />
+
+    <!-- Right Leaf -->
+    <path
+      d="M 47.5 48.5 C 46.5 39 54 27.5 69.5 24.5 C 69 34 62.5 42.5 51 48.5 Z"
+      fill="#325B27"
+      stroke="#1A3B12"
+      stroke-width="3.0"
+      stroke-linejoin="round"
+      stroke-linecap="round"
+    />
+    <path
+      d="M 48.5 48 C 53 40.5 59.5 32 68 25.5"
+      stroke="#1A3B12"
+      stroke-width="2.5"
+      stroke-linecap="round"
+    />
+  </g>
+
+  <!-- Top Arch (Light Sage Green) -->
+  <path
+    d="M 84.5 41 A 35.5 35.5 0 0 0 15.5 48.5"
+    stroke="#9DC297"
+    stroke-width="7.2"
+    stroke-linecap="round"
+  />
+
+  <!-- Soil Divider & Bottom Bowl (Terracotta Brown) -->
+  <path
+    d="M 15.5 48.5 L 84.5 48.5 A 35.5 35.5 0 0 1 16.5 61.5"
+    stroke="#793A1E"
+    stroke-width="7.2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
